@@ -25,7 +25,7 @@ def computer_choice():
   return computer_choice
 
 def who_won(player1_input, computer_choice):
-  print(f"Computer chooses {computer_choice}")
+  print(f"Computer chose {computer_choice}")
   if player1_input == computer_choice:
     print("It's a tie!")
   elif player1_input == ROCK and computer_choice == SCISSORS:
